@@ -1,0 +1,28 @@
+.Portfolio-Container{
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.Portfolio-Container p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.Portfolio-Heading{
+    margin-bottom: 0;
+}
+
+
+
+@media screen and (min-width: 900px){
+    .Portfolio-Container{
+        padding-right: 130px;
+    }
+
+}
+
+
+
+

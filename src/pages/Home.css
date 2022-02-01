@@ -1,0 +1,41 @@
+.Home-Container{
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.P1{
+    font-size: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.Home-Container p{
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.Home-Heading{
+    margin-bottom: 0;
+}
+
+.Home-Sub-Container{
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 900px){
+    .Home-Container{
+        padding-right: 130px;
+    }
+  
+    .Who-We-Are .Info img{
+        height: 44px;
+    }
+
+}
+
+
+
+

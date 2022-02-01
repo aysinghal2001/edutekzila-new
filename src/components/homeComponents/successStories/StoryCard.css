@@ -1,0 +1,65 @@
+.Story-Card{
+    margin: 12px;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(149.27deg, #00BCE4 -6.57%, rgba(0, 188, 228, 0.3) 122.53%);
+    text-align: center;
+    border-radius: 16px;
+    padding-bottom: 12px;
+}
+
+
+.Story-Card img{
+    margin: 0 60px 40px 60px;
+    background-color:whitesmoke;
+    border-radius: 16px;
+    width: 40vw; 
+    object-fit: fill;
+}
+
+.Story-Title{
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 1.8rem;
+    color: #050F2C;
+}
+
+
+.Story-View-Icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 24%;
+    width: 24%;
+    background-color: white;
+    border: none;
+    border-bottom-right-radius: 16px ;
+    border-top-left-radius: 14px ;
+
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width : 1099px){
+    .Story-Card{
+        width: 33vw;
+    }
+
+    .Story-Card img{
+        width: 20vw; 
+    }
+
+}
+
+
+@media screen and (min-width: 1100px) {
+    .Story-Card{
+        width: 24vw;
+    }
+
+    .Story-Card img{
+        width: 14vw; 
+    }
+
+}
+
